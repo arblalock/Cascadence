@@ -30,7 +30,7 @@
         <main id="cont">
             <section>
                 <div>
-                    <video poster="static/imgs/VideoPoster.jpg" autoplay muted loop preload="auto" playsinline id="vid-bg">
+                    <video onloadeddata="this.play();" poster="static/imgs/VideoPoster.jpg" autoplay muted loop preload="auto" playsinline id="vid-bg">
                         <source src="https://github.com/arblalock/Cascadence/raw/main/static/CascadenceTrailerWebsite.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -39,7 +39,7 @@
                         <img id="logo" src="static/imgs/logo_w_effects.png" alt="logo">
                     </div>
                     <div id="dl-btn-cont">
-                        <a id="dl-btn" href="https://store.steampowered.com/app/2225090/Cascadence/">Previews <span><img id="ic-caret" src = "static/imgs/caret.svg" /></span></a>
+                        <a id="dl-btn" href="https://store.steampowered.com/app/2225090/Cascadence/">Preview <span><img id="ic-caret" src = "static/imgs/caret.svg" /></span></a>
                     </div>
                 </div>
             </section>
